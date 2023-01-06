@@ -19,7 +19,7 @@ echo
 echo
 
 read -p "${RED}Do you want to continue y/n " x
-if(( $x=="y"  ||  $x=="yes" ))
+if(($x == "y"  ||  $x == "yes" ))
 
 then
     echo "${GREEN}Watch my YouTube videos till install :)"
