@@ -13,27 +13,19 @@ echo "YouTube   https://www.youtube.com/@the44exploit              "
 echo "GitHub    https://github.com/the44exploit/                   "
 echo "${GREEN}-----------------------------------------------------"
 
-echo "It will take 10-20 minutes..."
-
-echo 
 echo
+echo
+echo "${GREEN}It will take 10-20 minutes..."
+echo
+echo "${GREEN}Watch my YouTube videos till Install"
 
-read -p "${RED}Do you want to continue y/n " conx
-
-if(($conx == "y" || $conx == "yes" ))
-then
-    echo "Watch my YouTube videos till install"
-else
-    echo "exit"
-fi
-
-
+sleep 10
 pkg install git make perl python binutils -y
 
 clear
 echo "$Green cloning repository"
 cd ~/
-sleep 4
+sleep 5
 git clone https://github.com/openwall/john
 
 
@@ -41,7 +33,7 @@ cd john/src
 clear
 echo "$Green It will take 10-15 minutes..."
 
-sleep 4
+sleep 5
 ./configure
 make -s clean && make -sj4
 cd ~/
