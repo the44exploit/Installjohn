@@ -7,19 +7,19 @@ pkg update -y
 pkg upgrade -y
 pkg install figlet -y
 clear
-echo "${GREEN}-------------------------------------------------------------"
+echo "${GREEN}-----------------------------------------------------"
 echo "                    the 44 exploit                           "
 echo "YouTube   https://www.youtube.com/@the44exploit              "
 echo "GitHub    https://github.com/the44exploit/                   "
-echo "${GREEN}-------------------------------------------------------------"
+echo "${GREEN}-----------------------------------------------------"
 
 echo "It will take 10-20 minutes..."
 
-echo "${RED}Do you want to continue y/n"
-read x
-if [ x== "y" ] || [ x=="yes" ]
+read -p "${RED}Do you want to continue y/n" x
+if(( $x=="y"  ||  $x=="yes" ))
 then
-echo "Watch my YouTube videos till install :)"
+echo "${GREEN}Watch my YouTube videos till install :)"
+sleep 5
 else
 exit 1
 fi
