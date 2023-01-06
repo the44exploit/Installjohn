@@ -25,7 +25,7 @@ then
     echo "${GREEN}Watch my YouTube videos till install :)"
     sleep 5
 else
-    exit 1
+    echo "exit"
 fi
 
 
