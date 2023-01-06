@@ -69,6 +69,7 @@ echo "${GREEN}GitHub    https://github.com/the44exploit"
 echo
 echo
 echo "${GREEN} Successfully Installed"
+echo
 
 #The 44 Exploit
 #YouTube https://www.youtube.com/@the44exploit
