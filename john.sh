@@ -48,8 +48,9 @@ echo "GitHub    https://github.com/the44exploit                 "
 echo "${GREEN}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo
 echo
-echo "$Green It will take 10-15 minutes..."
-
+echo "${GREEN}It will take 10-15 minutes..."
+echo
+echo
 sleep 5
 ./configure
 make -s clean && make -sj4
@@ -63,11 +64,11 @@ echo
 echo "${GREEN}the44exploit the44exploit the44exploit the44exploit"
 echo
 echo
-echo "$GREEN YouTube   https://www.youtube.com/@the44exploit"
-echo "$GREEN GitHub    https://github.com/the44exploit"
+echo "${GREEN}YouTube   https://www.youtube.com/@the44exploit"
+echo "${GREEN}GitHub    https://github.com/the44exploit"
 echo
 echo
-echo "$GREEN Successfully Installed"
+echo "${GREEN} Successfully Installed"
 
 #The 44 Exploit
 #YouTube https://www.youtube.com/@the44exploit
