@@ -18,12 +18,11 @@ echo "It will take 10-20 minutes..."
 echo 
 echo
 
-read -p "${RED}Do you want to continue y/n " x
-if(($x == "y"  ||  $x == "yes" ))
+read -p "${RED}Do you want to continue y/n " conx
 
+if(($a == "true" || $b == "true" ))
 then
-    echo "${GREEN}Watch my YouTube videos till install :)"
-    sleep 5
+    echo "Watch my YouTube videos till install"
 else
     echo "exit"
 fi
