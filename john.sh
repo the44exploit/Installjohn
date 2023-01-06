@@ -1,7 +1,11 @@
+#!/bin/bash
 
 GREEN="$(printf '\033[32m')"
 RED="$(printf '\033[31m')"
 
+#The 44 Exploit
+#YouTube https://www.youtube.com/@the44exploit
+#GitHub  https://github.com/the44exploit
 
 pkg update -y
 pkg upgrade -y
@@ -10,7 +14,7 @@ clear
 echo "${GREEN}--------------------------------------------------"
 echo "                    the 44 exploit                        "
 echo "YouTube   https://www.youtube.com/@the44exploit           "
-echo "GitHub    https://github.com/the44exploit/                "
+echo "GitHub    https://github.com/the44exploit                 "
 echo "${GREEN}--------------------------------------------------"
 
 echo
@@ -26,7 +30,7 @@ clear
 echo "${GREEN}--------------------------------------------------"
 echo "                    the 44 exploit                        "
 echo "YouTube   https://www.youtube.com/@the44exploit           "
-echo "GitHub    https://github.com/the44exploit/                "
+echo "GitHub    https://github.com/the44exploit                 "
 echo "${GREEN}--------------------------------------------------"
 echo
 echo
@@ -41,7 +45,7 @@ clear
 echo "${GREEN}--------------------------------------------------"
 echo "                    the 44 exploit                        "
 echo "YouTube   https://www.youtube.com/@the44exploit           "
-echo "GitHub    https://github.com/the44exploit/                "
+echo "GitHub    https://github.com/the44exploit                 "
 echo "${GREEN}--------------------------------------------------"
 echo
 echo
@@ -60,3 +64,7 @@ echo "$GREEN YouTube   https://www.youtube.com/@the44exploit"
 echo "$GREEN GitHub    https://github.com/the44exploit"
 
 echo "$GREEN Succesfully Installed"
+
+#The 44 Exploit
+#YouTube https://www.youtube.com/@the44exploit
+#GitHub  https://github.com/the44exploit
