@@ -15,14 +15,19 @@ echo "${GREEN}-----------------------------------------------------"
 
 echo "It will take 10-20 minutes..."
 
-read -p "${RED}Do you want to continue y/n" x
+echo 
+echo
+
+read -p "${RED}Do you want to continue y/n " x
 if(( $x=="y"  ||  $x=="yes" ))
+
 then
-echo "${GREEN}Watch my YouTube videos till install :)"
-sleep 5
+    echo "${GREEN}Watch my YouTube videos till install :)"
+    sleep 5
 else
-exit 1
+    exit 1
 fi
+
 
 pkg install git make perl python binutils -y
 
