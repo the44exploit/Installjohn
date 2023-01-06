@@ -34,7 +34,7 @@ echo "GitHub    https://github.com/the44exploit                 "
 echo "${GREEN}++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo
 echo
-echo "$Green cloning repository"
+echo "$Greencloning repository..."
 cd ~/
 sleep 5
 git clone https://github.com/openwall/john
