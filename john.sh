@@ -17,7 +17,7 @@ echo "It will take 10-20 minutes..."
 
 echo "${RED}Do you want to continue y/n"
 read x
-if [ x== "y" || x=="yes" ]
+if [ x== "y" ] || [ x=="yes" ]
 then
 echo "Watch my YouTube videos till install :)"
 else
