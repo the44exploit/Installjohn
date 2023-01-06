@@ -1,7 +1,6 @@
 #!/bin/bash
 
 GREEN="$(printf '\033[32m')"
-RED="$(printf '\033[31m')"
 
 #The 44 Exploit
 #YouTube https://www.youtube.com/@the44exploit
@@ -34,7 +33,7 @@ echo "GitHub    https://github.com/the44exploit                 "
 echo "${GREEN}++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo
 echo
-echo "$Greencloning repository..."
+echo "${GREEN}cloning repository..."
 cd ~/
 sleep 5
 git clone https://github.com/openwall/john
