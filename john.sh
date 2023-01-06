@@ -20,7 +20,7 @@ echo
 
 read -p "${RED}Do you want to continue y/n " conx
 
-if(($a == "true" || $b == "true" ))
+if(($conx == "y" || $conx == "yes" ))
 then
     echo "Watch my YouTube videos till install"
 else
